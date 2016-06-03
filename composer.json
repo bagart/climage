@@ -1,0 +1,26 @@
+{
+    "name": "bagart/climage",
+    "description": "PHP daemon for prepare and upload image to cloud",
+    "homepage": "https://github.com/bagart/climage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Baltaev Artur",
+            "email": "bagart@list.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "pda/pheanstalk": "^3.1",
+        "vlucas/phpdotenv": "^2.2",
+        "google/apiclient": "1.*",
+        "ext-imagick": "*"
+    },
+    "autoload": {
+        "psr-4": {"Climage\\": "src/Classes/"
+        },
+        "files": [
+            "src/Config/app.php"
+        ]
+    }
+}
