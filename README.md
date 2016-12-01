@@ -56,7 +56,7 @@ src/Command/cloud_prepare.php
 # 	retry	Retry failed operations
 
 #if you want install script as "bot" command
-ln -s /home/ubuntu/climage/src/Command/bot.php /usr/bin/bot
+sudo ln -s /home/ubuntu/climage/src/Command/bot.php /usr/bin/bot
 
 ```
 
